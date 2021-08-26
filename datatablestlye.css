@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    background-color: skyblue;
+    width: 50%;
+}
+
+.right {
+    background-color: tan;
+    width: 50%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .row1 input {
+    margin-left: 10px;
+  }
+
+  .row1:nth-child(2) label {
+    /* width: 50px; */
+    padding-right: 11px;
+  }
+
+  .left form {
+    padding: 20px;
+  }
+  
+  .row1 {
+    margin-bottom: 10px;
+  }
+
+  .row1 input[type="submit"] {
+    /* width: auto; */
+    margin-left: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
